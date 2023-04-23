@@ -12,7 +12,7 @@ export default function Home() {
       {/* <Profile></Profile> */}
       {/* <Education></Education> */}
       {/* <Workexperience></Workexperience> */}
-      <div className="md:flex gap-2 w-full bg-slate-300">
+      <div className="lg:flex gap-2 w-full bg-slate-300">
         <div className=" bg-slate-600"><ContectDetail></ContectDetail> <Skills></Skills> </div>
         <div className=" bg-slate-400"><Profile></Profile> <Education></Education> <Workexperience></Workexperience></div>
       </div>
