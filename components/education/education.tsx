@@ -12,7 +12,7 @@ const Education: React.FC<EducationProps> = ({  }) => {
         <div className="flex flex-col gap-3 p-2">
           <div className=" text-2xl font-bold text-slate-950">Mahasarakham University [2018-2021]</div>
           <div className=" text-1xl font-bold text-slate-950">Geographic information system</div>
-          <div className=" text-xl font-bold text-slate-950"></div>
+          <div className=" text-gl font-bold text-slate-800">GIS(Geographic information system )หรือระบบสารสนเทศภูมิศาสตร์ คือกระบวนการของ Hardware,Software,Peopleware และ Data ในการเสริมสร้างประสิทธิภาพของการจัดเก็บข้อมูล การปรับปรุงข้อมูล การคำนวณ และการวิเคราะห์ข้อมูล ให้แสดงผลในรูปของข้อมูลที่สามารถอ้างอิงได้ในทางภูมิศาสตร์ในการจัดเก็บและการใช้ข้อมูลเพื่ออธิบายสภาพต่างๆบนพื้นผิวโลกโดยอาศัยลักษณะทางภูมิศาสตร์เป็นตัวเชื่อมโยงความสัมพันธ์ระหว่างข้อมูลต่างๆ </div>
           </div>
           </div>
     </>
