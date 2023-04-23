@@ -14,7 +14,7 @@ const ContectDetail: React.FC<ContectDetailProps> = ({}) => {
             {icon}
             {/* <MdAttachEmail className="mt-1  text-2xl "></MdAttachEmail> */}
           </div>
-          <div className=" text-center text-lg text-gray-800 font-mono ">
+          <div className=" text-lg text-gray-800 font-mono ">
             {name}
             {/* pammy.kanokwan@gmail.com */}
           </div>
