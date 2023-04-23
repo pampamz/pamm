@@ -6,29 +6,34 @@ import Skills from "@/components/skills/skills";
 import Workexperience from "@/components/workexperience/workexperience";
 
 export default function Home() {
+  function Patding() {
+    return (
+      <>
+        <div className=" h-52 w-52 rounded-full bg-indigo-200"></div>
+      </>
+    );
+  }
   return (
     <>
-      {/* <ContectDetail></ContectDetail> */}
-      {/* <Skills></Skills> */}
-      {/* <Profile></Profile> */}
-      {/* <Education></Education> */}
-      {/* <Workexperience></Workexperience> */}
-      {/* <Name></Name> */}
-      <div className="p-10">
-      <div className="h-52 bg-white"></div>
-      <div className="lg:flex gap-20 w-full">
-        <div className=" bg-white">
-          <div className="h-44"></div>
-          <Name></Name> <ContectDetail></ContectDetail> <Skills></Skills>
+      <div className="relative ">
+        <div className="absolute -right-20 -top-10">{Patding()} </div> 
+        <div className="absolute -left-20 -top-12">{Patding()} </div> 
+
+        <div className="lg:flex p-10 w-full">
+          <div className="h-52 bg-white"></div>
+          <div className="gap-20 w-full">
+            <div className=" bg-white">
+              <div className="h-44"></div>
+              <Name></Name> <ContectDetail></ContectDetail> <Skills></Skills>
+            </div>
+          </div>
+
+          <div className=" bg-white">
+            <div className=""></div>
+            <Profile></Profile> <Education></Education>
+            <Workexperience></Workexperience>
+          </div>
         </div>
-        
-        <div className=" bg-white">
-          <div className=""></div>
-          <Profile></Profile> <Education></Education>
-          <Workexperience></Workexperience>
-  
-        </div>
-      </div>
       </div>
     </>
   );

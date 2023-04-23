@@ -7,9 +7,13 @@ interface NameProps {}
 const Name: React.FC<NameProps> = ({}) => {
   return (
     <>
-    <div className="relative">
-        <div className="w-full  absolute -top-32"><Nameimg></Nameimg></div>
-      <div className=""><NameBg></NameBg></div>
+      <div className="relative">
+        <div className="w-full  absolute -top-32">
+          <Nameimg></Nameimg>
+        </div>
+        <div className="">
+          <NameBg></NameBg>
+        </div>
       </div>
     </>
   );
