@@ -9,8 +9,8 @@ const ContectDetail: React.FC<ContectDetailProps> = ({}) => {
   function detil(icon: React.ReactNode, name: string) {
     return (
       <>
-        <div className=" flex p-3 gap-7 ">
-          <div className="flex items-center justify-center text-gray-700 ">
+        <div className=" flex p-5 gap-7 ">
+          <div className="flex text-gray-700 ">
             {icon}
             {/* <MdAttachEmail className="mt-1  text-2xl "></MdAttachEmail> */}
           </div>
