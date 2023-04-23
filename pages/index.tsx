@@ -2,6 +2,7 @@ import ContectDetail from "@/components/contect-detall/contect";
 import Education from "@/components/education/education";
 import Profile from "@/components/profile/profile";
 import Skills from "@/components/skills/skills";
+import Workexperience from "@/components/workexperience/workexperience";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
       <Skills></Skills>
       <Profile></Profile>
       <Education></Education>
+      <Workexperience></Workexperience>
+    
     </>
   );
 }
